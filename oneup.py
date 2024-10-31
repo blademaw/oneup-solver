@@ -5,8 +5,6 @@ import sys
 import janus_swi as janus
 from requests_html import HTMLSession
 
-# r58EYKkqGEoWeEK31mDq <-- Oct 25
-# f8fKWY05J7bB09dRu6sM <-- today's key
 
 def fetch_puzzle(sid):
     session = HTMLSession()
