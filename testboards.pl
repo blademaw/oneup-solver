@@ -1,3 +1,4 @@
+% sample 7x7
 largeBoard(B, H, V) :-
   B = [
   [_, 1, _, _, _, _, _],
@@ -28,6 +29,7 @@ largeBoard(B, H, V) :-
   ].
 
 
+% sample 4x4
 smallBoard(Board, WallsH, WallsV) :-
   Board = [
   [_, _, _, _],
@@ -47,5 +49,4 @@ smallBoard(Board, WallsH, WallsV) :-
   [0, 0, 0, 0],
   [0, 0, 1, 0]
   ].
-
 
