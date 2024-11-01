@@ -10,7 +10,7 @@ Uses Prolog to solve the puzzle and Python for a CLI interface.
 2. Install the prerequisites:
 
 ```bash
-python -m pip install requests-html janus-swi
+python -m pip install requests-html janus-swi lxml[html_clean]
 ```
 
 3. Clone this repo:
@@ -21,7 +21,7 @@ git clone https://github.com/blademaw/oneup-solver.git
 
 ## Usage
 
-1. Find the current puzzle ID via the [One up puzzle website](https://www.oneuppuzzle.com). For example, today's ID was `f8fKWY05J7bB09dRu6sM`
+1. Find the current puzzle ID by going to the [One up puzzle website](https://www.oneuppuzzle.com) and pressing "play". It is the last part of the URL (`/play/<ID>`). For example, today's (31 Oct) ID was `f8fKWY05J7bB09dRu6sM`
 2. Navigate to the install directory and run:
 
 ```bash
